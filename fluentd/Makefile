@@ -1,6 +1,6 @@
 REPO_NAME =
 FLUENTD_DIR =
-FLUENTD_CONF_BASE_URL = https://github.com/NumaoLab/mimamori_core/tree/master/fluentd
+FLUENTD_CONF_BASE_URL = https://raw.githubusercontent.com/NumaoLab/mimamori_core/master/fluentd
 
 initFluentdConf:
 	@if [ ! -e /root/${REPO_NAME}/fluentd/fluent.conf ]; then \
